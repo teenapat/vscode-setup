@@ -1,0 +1,92 @@
+{
+	"tabnine.experimentalAutoImports": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.tokenColorCustomizations": {
+			"textMateRules": [
+					{
+							"name": "One Dark italic",
+							"scope": [
+									"comment",
+									"entity.other.attribute-name",
+									"keyword",
+									"markup.underline.link",
+									"storage.modifier",
+									"storage.type",
+									"string.url",
+									"variable.language.super",
+									"variable.language.this"
+							],
+							"settings": {
+									"fontStyle": "italic"
+							}
+					},
+					{
+							"name": "One Dark italic reset",
+							"scope": [
+									"keyword.operator",
+									"keyword.other.type",
+									"storage.modifier.import",
+									"storage.modifier.package",
+									"storage.type.built-in",
+									"storage.type.function.arrow",
+									"storage.type.generic",
+									"storage.type.java",
+									"storage.type.primitive"
+							],
+							"settings": {
+									"fontStyle": ""
+							}
+					}
+			]
+	},
+	"workbench.iconTheme": "material-icon-theme",
+	"git.autofetch": true,
+	"workbench.editorLargeFileConfirmation": 2048,
+	"git.confirmSync": false,
+	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.tabSize": 2,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"mssql.enableRichExperiences": true,
+	"editor.fontWeight": "normal",
+	"editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.smoothScrolling": true,
+	"editor.mouseWheelZoom": true,
+	"editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "prettier.singleQuote": true,  // Convert double quotes to single quotes
+  "prettier.trailingComma": "all", // Add commas where valid in ES5
+  "prettier.semi": true, // Ensure semicolons at the end of statements
+  "prettier.endOfLine": "lf", // Normalize line endings
+  "prettier.tabWidth": 2, // Set indentation width
+  "prettier.useTabs": false, // Use spaces instead of tabs
+  "prettier.printWidth": 100, // Set max line width
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "One Dark Theme",
+	"workbench.settings.applyToAllProfiles": [
+		
+	],
+	"mssql.connectionGroups": [
+		{
+			"name": "ROOT",
+			"id": "B9593C82-4221-4C34-B97D-50E7DEB1970B"
+		}
+	],
+	"mssql.connections": [],
+	"tailwind-fold.autoFold": false
+}
